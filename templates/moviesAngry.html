@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angry_Movies</title>
+    <!-- <link rel="stylesheet" href="happy.css"> -->
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    body{
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* background-image: linear-gradient(rgba(192, 190, 236, 0.5),rgba(224, 224, 235, 0.5)),url(Images/img4.png);
+        background-size: cover;
+        background-repeat: no-repeat; */
+    }
+
+    img{
+        width: 300px;
+        height: auto;
+        margin: 5px;
+        border: 6px double white;
+    }   
+    .header{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(22, 22, 21, 0.5),rgba(10, 10, 10, 0.849)),url(static/img12.png);
+        background-position: center;
+        background-size: cover;
+        overflow-x: hidden;
+        justify-content: center;
+        text-align: center;
+    }
+    .box{
+        box-shadow: 0 0 20px 2px rgba(0,0,0,0.1);
+        transition: 1s;
+    }
+    .box img:hover{
+        transform: scale(1.1);
+        z-index: 2;
+    }
+
+.boxs {
+	text-align:-webkit-center;
+}
+.button {
+	font-size: 1em;
+	padding: 15px 35px;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+	background: white;
+	border-radius: 50px;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.8);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+.wrapper {
+	margin: 70px auto;
+	padding: 20px;
+	background: #e7e7e7;
+	border-radius: 5px;
+	width: 46%;
+	position: relative;
+	transition: all 5s ease-in-out;
+}
+.wrapper .close {
+	position: absolute;
+	top: 40px;
+	right: 30px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+.wrapper .close:hover {
+	color: #06D85F;
+}
+    </style>
+</head>
+
+<body>
+<div class="header">
+   <div class="boxs">
+                       <br><br>
+		                <h1 style="color: #FFFFFF">*** Submit the Review for this Website, After you use it ***</h1>
+                       <br><br>
+                       <a class="button" href="#divOne">Place The Review</a>
+                       <br><br><br>
+                      <div class ="box">
+                          <a href="https://www.imdb.com/title/tt5462602/"><img src="../static/Angry_Movies/bg3.png"></a>
+                <a href="https://www.imdb.com/title/tt0021749/"><img src="../static/Angry_Movies/bg18.png"></a>
+                <a href="https://www.imdb.com/title/tt0039628/"><img src="../static/Angry_Movies/bg20.png"></a>
+                <a href="https://www.imdb.com/title/tt0032904/"><img src="../static/Angry_Movies/bg8.png"></a>
+                <a href="https://www.imdb.com/title/tt0052357/"><img src="../static/Angry_Movies/bg9.png"></a>
+                <a href="https://www.imdb.com/title/tt0047296/"><img src="../static/Angry_Movies/bg10.png"></a>
+                <a href="https://www.imdb.com/title/tt0046250/"><img src="../static/Angry_Movies/bg11.png"></a>
+                <a href="https://www.imdb.com/title/tt0043278/"><img src="../static/Angry_Movies/bg13.png"></a>
+                <a href="https://www.imdb.com/title/tt2402927/"><img src="../static/Angry_Movies/bg14.png"></a>
+                <a href="https://www.imdb.com/title/tt2209418/"><img src="../static/Angry_Movies/bg15.png"></a>
+                <a href="https://www.imdb.com/title/tt0040725/"><img src="../static/Angry_Movies/bg16.png"></a>
+                <a href="https://www.imdb.com/title/tt0043265/"><img src="../static/Angry_Movies/bg17.png"></a>
+
+
+                      </div>
+	 </div>
+	 <div class="overlay" id="divOne">
+		<div class="wrapper">
+			<a class="close" href="#">&times;</a>
+					<iframe src="https://dreamtech3.surveysparrow.com/s/Recommendation-Survey/tt-6zBe9yb67d2nFiZW2gxmpN" width="640" height="500" >Loading…</iframe>
+		</div>
+	</div>
+        </div>
+</body>
+</html>
