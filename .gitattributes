@@ -1,1 +1,2 @@
-*.html linguist-detectable=false
+*.python linguist-attachable=true
+*.css linguist-attachable=true
