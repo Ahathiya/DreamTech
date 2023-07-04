@@ -20,17 +20,28 @@ What's next for DreamTech ?
 
 Built With :
 
-  html
-  css
-  python
+  HTML
+  
+  CSS
+  
+  Python
+  
   flask
+  
   keras
+  
   numpy
+  
   opencv
+  
   tensorflow
+  
   jupyter-notebook
+  
   transfer-learning
+  
   machine-learning
+  
   IDE Used is Pycharm
   
 
