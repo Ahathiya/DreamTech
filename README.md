@@ -9,9 +9,13 @@
 How we built it ?
      
    Python is the programming language used to create the emotion detection model and deploy it on the web application using flask, CV2, TensorFlow, Keras NumPy, matplotlib, and other libraries are also utilized. 
+   
    The model is built using the transfer learning approach for which the MobileNet model is used.
+   
    The FER-2013 dataset from Kaggle, which comprises around 35000 photos, was utilized for model training and validation.
+   
    This model is deployed on a website created with HTML and CSS using the flask framework. 
+   
    Based on the seven emotions, a new dataset of movies and music was constructed.The data from movies and songs were utilized to create the various templates that  correlate to various emotions.
     
 What's next for DreamTech ?
