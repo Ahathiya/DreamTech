@@ -6,7 +6,7 @@
 
    When a user clicks on the movie that he / she wishes to watch, they will be redirected to the IMDB website and for songs, it redirects them to the Spotify website.
 
-How we built it ?
+--------- How we built it ? ---------
      
    Python is the programming language used to create the emotion detection model and deploy it on the web application using flask, CV2, TensorFlow, Keras NumPy, matplotlib, and other libraries are also utilized. 
    
@@ -18,11 +18,11 @@ How we built it ?
    
    Based on the seven emotions, a new dataset of movies and music was constructed.The data from movies and songs were utilized to create the various templates that  correlate to various emotions.
     
-What's next for DreamTech ?
+--------- What's next for DreamTech ? ---------
 
    The next step is to improve the model's accuracy. We are also going to introduce an AI-based chatbot with which users may express their problems and, based on the same, the Bot will recommend some remedies as well as the most suitable movie or song in that case.
 
-Built With :
+--------- Built With ---------
 
   HTML
   
